@@ -1,14 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-$red: #f30000;
-$black: #151515;
-
-h1 {
-  color: $red;
-  &:after {
-    content: " hello from after";
-    color: $black;
-  }
-}
