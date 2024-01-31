@@ -1,8 +1,10 @@
 import { defineConfig } from "vite";
 import { resolve } from "path";
+import jsonServer from "vite-plugin-json-server";
 
 export default defineConfig({
   base: "/vite-practice/",
+  plugins: [jsonServer({})],
   build: {
     rollupOptions: {
       input: {
