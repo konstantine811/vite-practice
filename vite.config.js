@@ -10,6 +10,7 @@ export default defineConfig({
         about: resolve(__dirname, "pages/about.html"),
         calculator: resolve(__dirname, "pages/calculator.html"),
         loopPractic: resolve(__dirname, "pages/loop-practic.html"),
+        fetchDataPractic: resolve(__dirname, "pages/fetch-data-practic.html"),
       },
     },
   },
