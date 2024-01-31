@@ -15,6 +15,6 @@ fetch("https://jsonplaceholder.typicode.com/posts/1", {
   .then((response) => response.json())
   .then((json) => console.log(json));
 
-fetch("https://jsonplaceholder.typicode.com/db")
+fetch("https://konstantine811.github.io/vite-practice/posts")
   .then((response) => response.json())
   .then((json) => console.log(json));
