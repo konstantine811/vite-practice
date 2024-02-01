@@ -1,11 +1,12 @@
 {
-  "posts": [
+  "task-list": [],
+  "task-list-done": [
     {
-      "id": 1,
-      "title": "hello"
+      "id": "28127487516.052876",
+      "title": "Ще одна задача",
+      "description": "попити чаю",
+      "priority": "low",
+      "date": 1706776363081
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
