@@ -21,7 +21,7 @@ taskFormEl.addEventListener("submit", (e) => {
     prioritySelectEl.value
   );
   addTask(task, API_PATH.taskList);
-  createCard(task);
+  createCard(task, cardWrapEl, cardWrapDoneEl);
   titleInputEl.value = "";
   descriptionTextEl.value = "";
   prioritySelectEl.value = "";
